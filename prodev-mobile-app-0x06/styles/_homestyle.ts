@@ -1,0 +1,76 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: "#fff",
+    },
+    searchGroup: {
+        backgroundColor: "#fff",
+        paddingHorizontal: 20,
+        paddingVertical: 16,
+    },
+    searchFormGroup: {
+        flexDirection: "row",
+        alignItems: "center",
+        backgroundColor: "#F5F5F5",
+        borderRadius: 30,
+        paddingHorizontal: 16,
+        paddingVertical: 12,
+        gap: 12,
+    },
+    searchControlGroup: {
+        flex: 1,
+    },
+    searchFormText: {
+        fontSize: 14,
+        fontWeight: "600",
+        color: "#333",
+    },
+    searchControl: {
+        fontSize: 12,
+        color: "#999",
+        marginTop: 4,
+    },
+    searchButton: {
+        backgroundColor: "#34967C",
+        width: 40,
+        height: 40,
+        borderRadius: 20,
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    filterGroup: {
+        flexDirection: "row",
+        paddingHorizontal: 20,
+        paddingVertical: 12,
+        gap: 24,
+    },
+    filterContainer: {
+        alignItems: "center",
+        gap: 8,
+        width: 80,
+    },
+    listingContainer: {
+        flex: 1,
+        paddingHorizontal: 20,
+        paddingTop: 16,
+    },
+    paginationContainer: {
+        alignItems: "center",
+        paddingVertical: 24,
+    },
+    showMoreButton: {
+        backgroundColor: "#34967C",
+        paddingHorizontal: 32,
+        paddingVertical: 12,
+        borderRadius: 8,
+    },
+    showMoreButtonText: {
+        color: "#fff",
+        fontSize: 16,
+        fontWeight: "600",
+    },
+});
+
+export { styles };
