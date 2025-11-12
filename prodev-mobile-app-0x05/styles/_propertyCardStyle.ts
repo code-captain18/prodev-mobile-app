@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
         columnGap: 5,
     },
     rateText: {
-        fontSize: 20,
+        fontSize: 16,
         color: "#fff",
         fontWeight: 500,
         marginLeft: 4,
@@ -42,6 +42,7 @@ const styles = StyleSheet.create({
         borderRadius: 30,
         alignItems: "center",
         justifyContent: "center",
+        marginLeft: -40,
     },
     priceText: {
         fontSize: 17,
@@ -72,4 +73,5 @@ const styles = StyleSheet.create({
     },
 });
 
-export { styles }
+export { styles };
+

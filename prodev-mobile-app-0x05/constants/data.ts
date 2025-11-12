@@ -137,4 +137,19 @@ const FILTERS: string[] = [
     "Pet-Friendly",
     "Secluded"
 ];
-export { SAMPLE_DATA, FILTERS }
+
+const FILTER_ICONS: { [key: string]: { library: string; name: string } } = {
+    "Mansion": { library: "MaterialCommunityIcons", name: "home-city" },
+    "CountrySide": { library: "MaterialCommunityIcons", name: "barn" },
+    "Villa": { library: "MaterialCommunityIcons", name: "home-modern" },
+    "Tropical": { library: "MaterialCommunityIcons", name: "palm-tree" },
+    "New": { library: "Feather", name: "star" },
+    "Amazing": { library: "Feather", name: "award" },
+    "Beachfront": { library: "MaterialCommunityIcons", name: "beach" },
+    "Luxury": { library: "MaterialCommunityIcons", name: "diamond" },
+    "Family-Friendly": { library: "MaterialCommunityIcons", name: "account-group" },
+    "Pet-Friendly": { library: "MaterialCommunityIcons", name: "paw" },
+    "Secluded": { library: "MaterialCommunityIcons", name: "pine-tree" },
+};
+
+export { FILTER_ICONS, FILTERS, SAMPLE_DATA };

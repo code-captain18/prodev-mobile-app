@@ -6,8 +6,9 @@ const styles = StyleSheet.create({
         backgroundColor: "#fff",
     },
     searchGroup: {
-        backgroundColor: "#fff",
-        paddingHorizontal: 20,
+        backgroundColor: "#20996fff",
+        paddingHorizontal: 10,
+        paddingTop: 60,
         paddingVertical: 16,
     },
     searchFormGroup: {
@@ -33,7 +34,7 @@ const styles = StyleSheet.create({
         marginTop: 4,
     },
     searchButton: {
-        backgroundColor: "#34967C",
+        backgroundColor: "#FFA800",
         width: 40,
         height: 40,
         borderRadius: 20,
@@ -44,12 +45,13 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         paddingHorizontal: 20,
         paddingVertical: 12,
-        gap: 24,
+        gap: 10,
     },
     filterContainer: {
         alignItems: "center",
         gap: 8,
         width: 80,
+        justifyContent: "center",
     },
     listingContainer: {
         flex: 1,
@@ -61,16 +63,17 @@ const styles = StyleSheet.create({
         paddingVertical: 24,
     },
     showMoreButton: {
-        backgroundColor: "#34967C",
+        backgroundColor: "#222020ff",
         paddingHorizontal: 32,
         paddingVertical: 12,
-        borderRadius: 8,
+        borderRadius: 20,
     },
     showMoreButtonText: {
         color: "#fff",
         fontSize: 16,
-        fontWeight: "600",
+        fontWeight: "300",
     },
 });
 
 export { styles };
+
